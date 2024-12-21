@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerli{
+    font-size: 10px;
+    color: rgb(172, 172, 172);
+    padding-top: 10px;
+    padding-right: 3px;
+}

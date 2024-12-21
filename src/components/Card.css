@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 769px){
+    .card{
+        width: 100% !important;
+        justify-content: space-around !important;
+        padding-right: 0% !important;
+        padding-left: 0% !important;
+    }
+}
+@media screen and (max-width: 425px){
+    .image{
+        width: 150px !important;
+    }
+}
+
+.card:hover .image{
+    transform: scale(1.1)
+}
